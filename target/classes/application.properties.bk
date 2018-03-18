@@ -1,0 +1,13 @@
+logging.level.org.springframework.web=ERROR
+loggin.level.com.shypovskikh=DEBUG
+
+#output to tmp_folder/file
+logging.file=${java.io.tmpdir}/application.log
+
+#logging pattern for the console
+logging.pattern.console="%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+
+#logging pattern for file
+logging.pattern.file= "%d{yyyy-MM-dd HH:mm:ss} [%thread] %logger{36} - %msg%n"
+
+logging.file=/Users/User7/eclipse-workspace/springAccessData-JPA_2/application.log
